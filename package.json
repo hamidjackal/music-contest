@@ -1,5 +1,5 @@
 {
-  "name": "@httickets/common",
+  "name": "@hamid_tehrani/common",
   "version": "1.0.20",
   "description": "",
   "main": "./build/index.js",
@@ -28,5 +28,12 @@
     "express-validator": "^6.10.1",
     "jsonwebtoken": "^8.5.1",
     "node-nats-streaming": "^0.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/hamid_tehrani/common"
+  },
+  "publishConfig": {
+    "@hamid_tehrani:registry": " https://gitlab.com/api/v4/projects/27823918/packages/npm/"
   }
 }
