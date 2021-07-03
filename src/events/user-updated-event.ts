@@ -3,7 +3,7 @@ import { Subjects } from './subjects'
 export interface UserUpdatedEvent {
   subject: Subjects.UserUpdated
   data: {
-    uuid: number
+    uuid: string
     username: string
     mobileNumber: string
     isParticipant: boolean
