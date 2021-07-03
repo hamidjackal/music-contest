@@ -20,3 +20,6 @@ export * from './events/expiration-complete-event';
 export * from './events/payment-created-event';
 export * from './events/user-created-event';
 export * from './events/user-updated-event';
+export * from './events/feed-created-event';
+export * from './events/feed-updated-event';
+export * from './events/feed-deleted-event';

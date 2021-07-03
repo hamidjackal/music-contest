@@ -33,3 +33,6 @@ __exportStar(require("./events/expiration-complete-event"), exports);
 __exportStar(require("./events/payment-created-event"), exports);
 __exportStar(require("./events/user-created-event"), exports);
 __exportStar(require("./events/user-updated-event"), exports);
+__exportStar(require("./events/feed-created-event"), exports);
+__exportStar(require("./events/feed-updated-event"), exports);
+__exportStar(require("./events/feed-deleted-event"), exports);
