@@ -10,5 +10,6 @@ export interface UserUpdatedEvent {
     roles: string[]
     status: string
     profileImage: string
+    version: number
   }
 }
